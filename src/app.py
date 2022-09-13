@@ -62,4 +62,4 @@ plotly_map = px.choropleth_mapbox(df_2,
                            title='The highest Installed Power of Renewable Energy',
                            labels={'source_more_produced': 'The most produced source of energy'},
                             )
-st.ploty_chart(plotly_map)
+st.plotly_chart(plotly_map)
