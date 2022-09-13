@@ -10,7 +10,7 @@ from copy import deepcopy
 
 # Add title and header
 st.title("Swiss Renewable Energy")
-st.header("Beta version feel free to write me an opinion ") #Information abailable about all renewable production in Switzerland by Canton
+st.header("Beta version") #Information abailable about all renewable production in Switzerland by Canton
 
 @st.cache
 def load_data(path):
